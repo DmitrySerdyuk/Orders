@@ -1,0 +1,6 @@
+product,quant,orDate,customer,street,city,state,zip,cardType,cardN,cardDate
+1,2,"23/8/2014","Robins","Verhnii Val","Kiev","UKR","02153",1,"4865789855743215","1/12/2020"
+2,3,"2/11/2014","Collins","Kovpaka","Lviv","UKR","01435",2,"5168448835194598","1/5/2019"
+1,5,"9/9/2014","Corbin Dallas","Ofigenna","Kursk","RUS","345879",2,"5168489734685518","1/9/2018"
+3,1,"18/10/2014","Skywalker","Funny","Tatuin","US","245698",3,"28973564157865","1/10/2015"
+3,2,"22/08/2014","Weider","Power","DeathStar","EU","016479",2,"2127878563854887","1/2/2016"

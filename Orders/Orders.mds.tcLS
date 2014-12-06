@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{be3113ad-ee49-486b-839e-4baf91bd52f9}">
+				<Node name="{d81379e3-539b-46c3-b6f4-6468993ca0e9}">
+					<Prp name="filepath" type="S" value="C:\Documents and Settings\All Users\Documents\TestComplete 7 Samples\Open Apps\OrdersDemo\C#\bin\Debug\"/>
+				</Node>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{578889E2-18B1-44B8-B9BD-DE41430FD0B7}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>
